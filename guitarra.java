@@ -1,9 +1,9 @@
-//Declaração da classe
+//DeclaraÃ§Ã£o da classe
 public class Guitarra {
     private String numeroSerie, fabricante, modelo, tipo, madeira;
     private double preco;
   
-    //Criação do construtor da classe Guitarra
+    //CriaÃ§Ã£o do construtor da classe Guitarra
     public Guitarra(String numeroSerie, String fabricante, String modelo, String tipo, String madeira, double preco) {
       this.numeroSerie = numeroSerie;
       this.fabricante = fabricante;
@@ -60,11 +60,11 @@ public class Guitarra {
     public void setPreco(double preco) {
       this.preco = preco;
     } 
-    //O método main() é o método principal da classe
+    //O mÃ©todo main() Ã© o mÃ©todo principal da classe
     public static void main(String[] args) {
-      Guitarra minhaGuitarra = new Guitarra("01020304", "Fender", "Telecaster", "elétrica", "mogno", 1500);
+      Guitarra minhaGuitarra = new Guitarra("01020304", "Fender", "Telecaster", "elÃ©trica", "mogno", 1500);
 
-      //Testando os dados da classe, imprimindo a saída simples no terminal
+      //Testando os dados da classe, imprimindo a saÃ­da simples no terminal
       System.out.println(minhaGuitarra.getNumeroSerie());
       System.out.println(minhaGuitarra.getFabricante());
       System.out.println(minhaGuitarra.getModelo());
